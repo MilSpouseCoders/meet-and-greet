@@ -1,23 +1,15 @@
-## Contributing
+# Contributing
 
-Please keep the [issue tracker](http://github.com/hakimel/reveal.js/issues) limited to **bug reports**, **feature requests** and **pull requests**.
+## Setting up
+We're excited you're thinking about contributing to this project! Before getting started, please review the goals for this presentation, which you can find in the [README](README.md). Next, do the following:
 
+1. Fork the project to your personal account and get a local copy on your machine.
+2. Change into the project folder.
+3. Run `npm instal` from the console.
+4. Run `npm start`.
 
-### Personal Support
-If you have personal support or setup questions the best place to ask those are [StackOverflow](http://stackoverflow.com/questions/tagged/reveal.js).
+Now you should be able to view the slides at http://localhost:8000/.
 
+## Claiming an Issue
 
-### Bug Reports
-When reporting a bug make sure to include information about which browser and operating system you are on as well as the necessary steps to reproduce the issue. If possible please include a link to a sample presentation where the bug can be tested.
-
-
-### Pull Requests
-- Should follow the coding style of the file you work in, most importantly:
-  - Tabs to indent
-  - Single-quoted strings
-- Should be made towards the **dev branch**
-- Should be submitted from a feature/topic branch (not your master)
-
-
-### Plugins
-Please do not submit plugins as pull requests. They should be maintained in their own separate repository. More information here: https://github.com/hakimel/reveal.js/wiki/Plugin-Guidelines
+Before you start working on something, let everyone know by claiming an issue. You can either comment on it, or assig it to yourself. If an issue doesn't exist, create one (even it's more of an enhancement rather than an issue).
