@@ -1,0 +1,49 @@
+#nonprofit {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  transform: rotate(-10deg);
+  width: 30%;
+  z-index: 1;
+}
+
+#woman_at_starting_line {
+  bottom: 0;
+  height: 75%;
+  position: absolute;
+  right: 0;
+}
+
+
+#military_family {
+  height: 500px;
+  margin-top: 75px;
+}
+
+#screen_with_code {
+  height: 400px;
+  margin-top: 75px;
+}
+
+#workshop_with_computers {
+  bottom: 0;
+  width: 320px;
+  left: 0;
+  position: absolute;
+  transform: rotate(15deg);
+}
+
+#pair_programming {
+  bottom: 0;
+  width: 320px;
+  left: 320px;
+  position: absolute;
+}
+
+#woman_programming {
+  bottom: 0;
+  width: 320px;
+  position: absolute;
+  right: 0;
+  transform: rotate(-15deg);
+}
