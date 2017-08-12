@@ -50,3 +50,15 @@
 #ice_breakers li:not(:last-child) {
   margin-bottom: 15px;
 }
+
+#web_dev_roles #role_groups {
+  display: flex;
+}
+
+#web_dev_roles #role_groups > :not(:last-child) {
+  margin-right: 50px;
+}
+
+#web_dev_roles h3 {
+  margin-bottom: 50px;
+}
