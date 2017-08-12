@@ -1,3 +1,12 @@
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6 {
+  text-transform: none;
+}
+
 #nonprofit {
   position: absolute;
   left: 0;
@@ -134,10 +143,65 @@
 
 #css_code {
   left: 0;
-  bottom: 0;
+  bottom: 25px;
 }
 
 #js_code {
   right: 0;
   bottom: 0;
+}
+
+#client_and_server h3, #static_vs_dynamic h3, #tools_of_the_trade h3 {
+  margin-top: 50px;
+}
+
+#woman_on_computer {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  height: 350px;
+}
+
+#server_room {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 350px;
+}
+
+#cnn_screenshot {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  height: 400px;
+}
+
+#fb_screenshot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 400px;
+}
+
+#text_editor {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 860px;
+}
+
+#browser {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 480px;
+  transform: rotate(15deg);
+}
+
+#terminal {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 480px;
+  transform: rotate(-15deg);
 }
