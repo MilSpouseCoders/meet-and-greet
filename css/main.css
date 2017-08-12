@@ -205,3 +205,18 @@
   width: 480px;
   transform: rotate(-15deg);
 }
+
+#online_resources ul {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#online_resources li:not(:last-child) {
+  margin-right: 20px;
+}
+
+#online_resources img {
+  border: 0;
+}
