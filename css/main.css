@@ -62,3 +62,82 @@
 #web_dev_roles h3 {
   margin-bottom: 50px;
 }
+
+.language_groups {
+  display: flex;
+  justify-content: space-around;
+}
+
+#programming_languages h3 {
+  margin-bottom: 50px;
+}
+
+.language_groups .html {
+  list-style: url('/images/language_logos/HTML5.png');
+}
+
+.language_groups .css {
+  list-style: url('/images/language_logos/css3.png');
+}
+
+.language_groups .java_script {
+  list-style: url('/images/language_logos/javascript.com');
+}
+
+.language_groups .ruby {
+  list-style: url('/images/language_logos/ruby.png');
+}
+
+.language_groups .python {
+  list-style: url('/images/language_logos/python.png');
+}
+
+.language_groups .java {
+  list-style: url('/images/language_logos/java.png');
+}
+
+.language_groups .php {
+  list-style: url('/images/language_logos/php.png');
+}
+
+.language_groups .sql {
+  list-style: url('/images/language_logos/sql.png');
+}
+
+#back_end_languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#back_end_languages ul:not(:last-child) {
+  margin-right: 120px;
+}
+
+#back_end_languages h4 {
+  flex-basis: 100%;
+}
+
+#what_makes_a_website h3 {
+  margin-top: 50px;
+}
+
+#what_makes_a_website img {
+  height: 400px;
+  position: absolute;
+}
+
+#html_code {
+  left: 100px;
+  bottom: 50px;
+}
+
+#css_code {
+  left: 0;
+  bottom: 0;
+}
+
+#js_code {
+  right: 0;
+  bottom: 0;
+}
