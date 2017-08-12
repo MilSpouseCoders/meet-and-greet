@@ -8,7 +8,7 @@ We're excited you're thinking about contributing to this project! Before getting
 3. Run `npm install` from the console.
 4. Run `npm start`.
 
-Now you should be able to view the slides at http://localhost:8000/.
+Now you should be able to view the slides at http://localhost:8000/. You can read more about the forking workflow [here](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow).
 
 ## Claiming an Issue
 
